@@ -13,11 +13,11 @@ const Card = ({img, heading, details, url}) => {
       }}
       className="max-w-xl bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8"
     >
-      <a href="hello">
+      <a href={url}>
         <img
           className="rounded-t-lg w-full"
           src={img}
-          alt=""
+          alt="img"
         />
       </a>
       <div className="p-5">

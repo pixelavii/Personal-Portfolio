@@ -57,7 +57,7 @@ const Contact = () => {
           <img src={myImg} alt="" style={{ height: "200px" }} />
           <p style={{textAlign:'center', fontSize:'20px', margin:'5px'}}>Avinash Chaurasia</p>
           <div style={{display: 'flex', justifyContent: 'center', gap:'15px'}} >
-            <a className="cursor-pointer hover:scale-125" href='https://www.instagram.com/zen.avii/' target='blank'><img src='https://img.icons8.com/doodle/40/000000/instagram-new--v2.png' alt="" /></a>
+            <a className="cursor-pointer hover:scale-125" href='https://www.instagram.com/avinashhh.ch/' target='blank'><img src='https://img.icons8.com/doodle/40/000000/instagram-new--v2.png' alt="" /></a>
             <a className="cursor-pointer hover:scale-125" href='https://www.linkedin.com/in/avinash-chaurasia-398269248/' target='blank'><img src='https://img.icons8.com/doodle/40/000000/linkedin--v2.png' alt="" /></a>
             <a className="cursor-pointer hover:scale-125" href='https://www.github.com/pixelavii/' target='blank'><img src='https://img.icons8.com/doodle/40/000000/github--v1.png' alt="" /></a>
           </div>

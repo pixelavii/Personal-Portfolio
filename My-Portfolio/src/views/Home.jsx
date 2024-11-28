@@ -24,7 +24,7 @@ const Home = () => {
           className="mx-auto max-w-7xl px-4 sm:px-6 md:mt-0 lg:px-8 flex flex-col md:flex-row items-center justify-center md:justify-between h-screen"
           id="/"
         >
-          <div className="sm:text-center lg:text-left">
+          <div className="sm:text-center lg:text-left md:mt-10">
             <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
               <motion.span
                 className={darkMode ? "block text-black" : " text-white"}
@@ -52,8 +52,11 @@ const Home = () => {
                   : "mt-3 text-base text-white sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
               }
             >
-              I am a Front-End / Full-Stack Developer. I am currently working at
-              RK Info Systems as a Junior Software Engineer.
+              I am a passionate <bold className="font-semibold">Full-Stack Developer</bold> and currently working at
+              {" "}<bold className="font-semibold">InRain Pvt. Ltd.</bold> as a <bold className="font-semibold">Web Developer</bold> with hands-on experience in building, optimizing and
+              improving website functionalities to enhance user experience.<br />
+              In my previous role as a <bold className='font-semibold'>Junior Software Engineer</bold> at <bold className="font-semibold">RK Info System</bold>,
+              I contributed to industry-grade projects as a <bold className="font-semibold">Frontend Developer</bold> and designing user-friendly interfaces.
             </p>
             <div className="flex md:justify-start ">
               {contactLinks.map((el) => (
