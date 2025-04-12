@@ -13,7 +13,9 @@ const Card = ({img, heading, details, url}) => {
       }}
       className="max-w-xl bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8"
     >
-      <a href={url}>
+      <a
+       target="_blank"
+       href={url}>
         <img
           className="rounded-t-lg w-full"
           src={img}
@@ -21,7 +23,9 @@ const Card = ({img, heading, details, url}) => {
         />
       </a>
       <div className="p-5">
-        <a href="helo">
+        <a href={url}
+        target="_blank"
+        >
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             {heading}
           </h5>
@@ -30,6 +34,7 @@ const Card = ({img, heading, details, url}) => {
           {details}
         </p>
         <a
+          target="_blank"
           href={url}
           className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300"
         >

@@ -26,18 +26,18 @@ const About = () => {
             <p
               className={
                 darkMode
-                  ? "mt-4 text-xl text-justify text-gray-500"
+                  ? "mt-4 text-xl text-justify text-gray-700"
                   : "mt-4 text-xl text-justify text-white"
               }
             >
-              I'm a self-taught web developer and Mobile App Developer with
+              I'm a self-taught <bold className="font-semibold">Web Developer and Mobile App Developer</bold> with
               experience in designing new features from ideation to production,
               implementation of wireframes and design flows into high
-              performance software applications. I take into consideration the
+              performance <bold className="font-semibold">Web Applications.</bold> I take into consideration the
               user experience while writing reusable and efficient code. I
               passionately combine good design, technology, and innovation in
               my projects, which I like to accompany from the first idea to
-              release. Currently, I'm focused on the backend development.
+              release. Currently, I'm focused on the learning of <bold className="font-semibold">Mobile App Development and AI.</bold>
             </p>
           </motion.div>
           <motion.div
@@ -48,7 +48,7 @@ const About = () => {
             <p
               className={
                 darkMode
-                  ? "mt-4 text-xl text-justify text-gray-500"
+                  ? "mt-4 text-xl text-justify text-gray-700"
                   : "mt-4 text-xl text-justify text-white"
               }
             >

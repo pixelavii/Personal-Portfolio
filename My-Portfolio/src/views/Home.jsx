@@ -34,11 +34,11 @@ const Home = () => {
               <span className="block text-blue-500 z-0 lg:inline">
                 <Typical
                   steps={[
-                    "Front End Developer",
+                    "Front-End Developer",
                     2000,
-                    "Full Stack Developer",
+                    "Full-Stack Developer",
                     2000,
-                    "Mobile Developer",
+                    "App Developer",
                     2000,
                   ]}
                   loop={Infinity}
@@ -48,21 +48,22 @@ const Home = () => {
             <p
               className={
                 darkMode
-                  ? "mt-3 text-base text-black sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
-                  : "mt-3 text-base text-white sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
+                  ? "mt-3 text-base text-black sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-lg lg:mx-0"
+                  : "mt-3 text-base text-white sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-lg lg:mx-0"
               }
             >
               I am a passionate <bold className="font-semibold">Full-Stack Developer</bold> and currently working at
               {" "}<bold className="font-semibold">InRain Pvt. Ltd.</bold> as a <bold className="font-semibold">Web Developer</bold> with hands-on experience in building, optimizing and
               improving website functionalities to enhance user experience.<br />
-              In my previous role as a <bold className='font-semibold'>Junior Software Engineer</bold> at <bold className="font-semibold">RK Info System</bold>,
-              I contributed to industry-grade projects as a <bold className="font-semibold">Frontend Developer</bold> and designing user-friendly interfaces.
+              In my previous role as a <bold className='font-semibold'>Software Engineer Intern</bold> at <bold className="font-semibold">RK Info Systems</bold> where
+              I contributed to industry-grade projects mostly on <bold className="font-semibold">Frontend </bold> and designing user-friendly interfaces.
             </p>
             <div className="flex md:justify-start ">
               {contactLinks.map((el) => (
                 <a
                   href={el.link}
                   className="mr-5 cursor-pointer mt-8 hover:scale-125"
+                  target="_blank"
                 >
                   <img alt="" src={el.url} />
                 </a>

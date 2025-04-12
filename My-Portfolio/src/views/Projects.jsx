@@ -5,6 +5,7 @@ import riddle from '../assets/Riddle.png';
 import rentassure from '../assets/RentAssure.png';
 import inrainconstructionCom from '../assets/inrainconstruction.com.png';
 import inrainconstructionIn from '../assets/inrainconstruction.in.png';
+import devsport from '../assets/devsport.png';
 
 const Projects = () => {
   const theme = useContext(ThemeContext);
@@ -48,13 +49,25 @@ const Projects = () => {
             url="https://rentassure-app.web.app/"
           />
           <Card
+            img={devsport}
+            heading="Dev's Port Web App"
+            details="Devs Port is a modern web application designed to unify a developer's digital identity into a single,
+             dynamic portfolio. It eliminates the hassle of managing multiple profiles by automatically fetching and 
+             displaying data from platforms like GitHub, LinkedIn, LeetCode, StackOverflow, and more. With a sleek
+              and responsive UI, Devs Port empowers users to showcase their achievements, skills, and social presence 
+              in one centralized hub — making it easier for recruiters, collaborators, and peers to discover their
+               complete professional footprint. Built with scalability and user experience in mind, it offers seamless 
+               integration and a one-link solution for sharing a developer’s complete digital persona."
+            url="https://devsport.vercel.app/"
+          />
+          <Card
             img={inrainconstructionCom}
             heading="My Industrial Project"
             details="InRain Construction Pvt. Ltd., a company specializing in 
             sustainable rainwater harvesting solutions. Their services include designing, installing, and maintaining rainwater
              harvesting systems for residential, commercial, and industrial properties. As a Web Developer at InRain Pvt. Ltd.,
               my primary role involves creating and maintaining websites while ensuring their functionality and performance. 
-              My focus on enhancing the user experience by optimizing and improving website functionalities. Additionally, I
+              I implemented a ChatBot using LangChain, where user can ask anything about the Company. Additionally, I
               leverage Nodemailer to implement email-sending functionalities for confirmation emails to users."
             url="https://www.inrainconstruction.com/"
           />

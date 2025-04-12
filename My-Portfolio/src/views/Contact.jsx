@@ -54,7 +54,7 @@ const Contact = () => {
           Contact
         </h2>
         <div style={{ height: "300px", width: "200px", margin: "auto" }} className="border border-dark border-2 rounded-3 mt-5">
-          <img src={myImg} alt="" style={{ height: "200px" }} />
+          <img src={myImg} alt="" style={{ height: "200px", width: "200px" }} />
           <p style={{textAlign:'center', fontSize:'20px', margin:'5px'}}>Avinash Chaurasia</p>
           <div style={{display: 'flex', justifyContent: 'center', gap:'15px'}} >
             <a className="cursor-pointer hover:scale-125" href='https://www.instagram.com/avinashhh.ch/' target='blank'><img src='https://img.icons8.com/doodle/40/000000/instagram-new--v2.png' alt="" /></a>
@@ -156,7 +156,7 @@ const Contact = () => {
               href="hello"
               className="mt-4  mb-12 md:text-right font-semibold text-blue-700 block uppercase"
             >
-              Noida, Uttar Pradesh
+              Gurgaon, Haryana
               <br />
               India
             </a>
@@ -164,6 +164,7 @@ const Contact = () => {
             <ul className="flex">
               {contactLinks.map((el) => (
                 <a
+                  target="_blank"
                   href={el.link}
                   className="md:ml-6 md:mr-0 mr-6 cursor-pointer mt-4 hover:scale-125 flex flex-col justify-center items-center"
                 >
