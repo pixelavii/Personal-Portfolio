@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import Card from "../components/Card";
 import { ThemeContext } from "../themeProvider";
-import riddle from '../assets/Riddle.png';
+import osadho from '../assets/osadho.png';
 import rentassure from '../assets/RentAssure.png';
 import inrainconstructionCom from '../assets/inrainconstruction.com.png';
 import inrainconstructionIn from '../assets/inrainconstruction.in.png';
@@ -25,17 +25,13 @@ const Projects = () => {
         </h4>
         <div className="mt-8 flex justify-between items-stretch flex-wrap">
           <Card
-            img={riddle}
-            heading="Riddle Web App"
-            details="The Riddle Web Application helps user to rent bike according
-            to there accomodation. Built with React.js, Node.js and Express.js.
-             It boasts real-time updates on bike 
-            availability, seamless reservations, and a user-driven rating 
-            system. This platform empowers users to effortlessly rent bikes 
-            tailored to their location, duration, and preferences, enhancing
-            their overall experience with user-friendly design to smooth accessbility
-            across devices."
-            url="https://riddle-283e1.web.app/"
+            img={osadho}
+            heading="Osadho"
+            details="I worked as a Freelancer on The Frontend of Osadho, a comprehensive platform designed to allow the Spiritual
+             coach to connect with the people who seek spiritual guidance. The platform offers a range of features including Booking(1:1) Sessions,
+              Audio Sessions, Guided Sessions etc and engaging with a community of like-minded individuals. Built using Next.js for the Frontend,
+               Osadho provides a seamless and user-friendly experience for both coaches and seekers."
+            url="https://dev.osadho.in/"
           />
           <Card
             img={rentassure}
